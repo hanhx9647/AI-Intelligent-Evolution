@@ -1,0 +1,32 @@
+# Message to Send to Codex After Adding These Files
+
+请先读取本仓库中的以下文件：
+
+- AGENTS.md
+- .agents/skills/self-evolving-agent/SKILL.md
+- .agent_evolution/SKILL_LIBRARY.md
+- .agent_evolution/REFLECTION_BUFFER.md
+- .agent_evolution/META_SKILL.md
+- .agent_evolution/CHANGELOG.md
+
+从现在开始，你在本仓库中完成任何较复杂任务时，都必须使用 self-evolving-agent skill。
+
+任务开始前，请输出简短的 Pre-Task Plan，包括：
+1. 用户目标；
+2. 成功标准；
+3. 相关已有 skill；
+4. 执行计划；
+5. 验证计划。
+
+任务完成后，请输出 Task Completion Report，并根据真实执行轨迹更新 .agent_evolution/ 中的文件。
+
+请注意以下规则：
+
+1. 不要重写整个 skill library，只能做 evidence-based targeted update。
+2. 不要把每次失败都归因于 skill defect。
+3. 如果已有 skill 是正确的，但你没有遵守，这属于 execution lapse，只能更新 Appendix 或 REFLECTION_BUFFER.md，不能修改 skill body。
+4. 如果发现新经验证据不足，请先写入 REFLECTION_BUFFER.md，不要直接写入 SKILL_LIBRARY.md。
+5. 如果发现 skill 维护方法本身有问题，请更新 META_SKILL.md。
+6. 每次实际接受的更新必须写入 CHANGELOG.md。
+
+现在请确认你已经理解这些文件的作用，并列出你将如何在后续任务中使用它们。
