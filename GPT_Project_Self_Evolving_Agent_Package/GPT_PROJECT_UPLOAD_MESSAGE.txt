@@ -1,6 +1,6 @@
 # Message to Send After Uploading the GPT Project Files
 
-请先阅读我刚上传到本 GPT Project 的以下文件：
+Please begin by reading the following files I have just uploaded to this GPT Project:
 
 - GPT_PROJECT_INSTRUCTIONS_TO_PASTE.txt
 - PROJECT_SELF_EVOLVING_AGENT_SKILL.md
@@ -9,17 +9,17 @@
 - META_SKILL.md
 - CHANGELOG.md
 
-从现在开始，在本 Project 内完成任何较复杂任务时，请遵守这些文件中的自我进化机制。
+From this point forward, whenever you undertake any complex tasks within this Project, please strictly adhere to the self-evolution mechanisms outlined in these files.
 
-每次任务开始前，请简要说明：
-1. 当前任务目标；
-2. 成功标准；
-3. 需要调用哪些已有 skill；
-4. 执行计划；
-5. 验证计划。
+Before commencing each task, please briefly outline:
+1. The current task objective;
+2. The criteria for success;
+3. Which existing skills need to be invoked;
+4. The execution plan;
+5. The verification plan.
 
-每次任务结束后，请进行 Skill-Aware Reflection，并判断本次轨迹属于 Discovery、Optimization、Skill Defect、Execution Lapse、Redundancy or Obsolescence 中的哪一类或哪几类。
+Upon the completion of each task, please perform a "Skill-Aware Reflection" and classify the trajectory of the session into one or more of the following categories: Discovery, Optimization, Skill Defect, Execution Lapse, Redundancy, or Obsolescence.
 
-如果需要更新 project 文件，请不要笼统总结，而是给出可以直接复制进对应文件的“精确新增段落”或“精确替换段落”。如果当前界面允许生成新版文件，请直接生成更新后的文件。如果证据不足，请只写入 REFLECTION_BUFFER.md，不要直接写入 SKILL_LIBRARY.md。
+If updates to the project files are required, please refrain from providing vague summaries; instead, provide "precise new paragraphs" or "precise replacement paragraphs" that can be directly copied into the corresponding files. If the current interface permits the generation of new file versions, please proceed to generate the updated files directly. If the supporting evidence is insufficient, please write only to `REFLECTION_BUFFER.md` and do not write directly to `SKILL_LIBRARY.md`.
 
-请注意：不要把每次失败都当成 skill 错误；也不要把每次成功都沉淀成新 skill。必须基于证据进行 targeted update。
+Please note: Do not treat every failure as a skill error, nor should you attempt to distill every success into a new skill. Updates must be targeted and strictly evidence-based.
